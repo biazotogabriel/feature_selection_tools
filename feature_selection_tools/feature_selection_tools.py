@@ -1,6 +1,8 @@
 import pandas as pd
+import numpy as np
 import itertools
 from IPython.display import clear_output
+
 
 def metric_decreases_by_pair(X_train, X_test, y_train, y_test, model, metric, verbose=True):
     dic_result = {}
